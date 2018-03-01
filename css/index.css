@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+.startPage{
+	position:relative;
+	width:100%;
+	height:643px;
+	background-image:url('../img/bg.jpg');
+	background-size:100% 100%;
+	z-index:999;
+}
+.startBtn{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	width:200px;
+	height:100px;
+	cursor:pointer;
+	background-image:url('../img/startGame.png');
+	background-size:100% 100%;
+}
+.wrapper{
+	display:none;
+	position:relative;
+	width:100%;
+	height:650px;
+	background-image:url('../img/bg.jpg');
+	background-size:100% 100%;
+}
+.left{
+	width:25%;
+	height:100%;
+}
+.pauseAndStart{
+	position:absolute;
+	top:40px;
+	left:40px;
+	width:80px;
+	height:80px;
+	cursor:pointer;
+	background-size: 100% 100%;
+}
+.startImg{
+	background-image:url('../img/start.png');
+}
+.pauseImg{
+	background-image: url('../img/pause.png');
+}
+.main .score{
+	position:absolute;
+	top:60px;
+	left:50%;
+	transform:translate(-50%);
+	color:#fff;
+	font-size:24px;
+	font-weight:400;
+}
+.main .grass{
+	position:absolute;
+	width:510px;
+	height:205px;
+	top:31%;
+	left:31%;
+}
+.main .lose{
+	display:none;
+	position:absolute;
+	background-image:url('../img/startP.jpg');
+	background-size:100% 100%;
+	width:400px;
+	height:300px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.main .lose span{
+	position:absolute;
+	color:#000;
+	font-size:24px;
+	font-weight:400;
+	top:45%;
+	left:45%;
+	transform:translate(-50%,-50%);
+}
+.main .lose .close{
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url('../img/closeBtn.png');
+	background-size:100% 100%;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.food{
+	background-image:url('../img/apple.png');
+	background-size: 100% 100%;
+}
+.head{
+	background-image:url('../img/head.png');
+	background-size:100% 100%;
+}
+.body{
+	background-image: url('../img/body.png');
+	background-size: 100% 100%;
+}
